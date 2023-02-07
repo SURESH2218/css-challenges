@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,300;1,100;1,400&family=Ubuntu:wght@300&display=swap');
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(6, 41, 130);
+    font-family: Ubuntu;
+
+}
+.where{
+    height: 300px;
+    background-color: wheat;
+    /* border: 3px solid wheat; */
+}
+.logo_name{
+    font-size: 30px;
+}
+.logo-details .fab{
+    font-size: 25px;
+    /* background-color: blue; */
+}
+.logo-details{
+    display: flex;
+    margin-left: 6rem;
+    align-items: center;
+    gap:.1rem;
+}
+.media-icons{
+    margin-right: 6rem;
+    /* border: 2px solid wheat; */
+    gap: .5rem;
+    display: flex;
+}
+.media-icons a{
+    text-decoration: none;
+    color: white;
+}
+.media-icons i{
+    text-decoration: none;
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius:50%;
+}
+.top{
+    display: flex;
+    /* background-color: black; */
+    height: 6rem;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+.boxcontainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap:10rem ;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+
+}
+.link_name{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.box hr{
+    width: 30px;
+   position: relative;
+   left: -28px;
+}
+
+.email{
+    border: 2px solid grey;
+    border-radius: 3px;
+    color: white;
+    padding: .5rem 1rem;
+    background-color: rgb(6, 41, 130);
+}
+.button{
+   width: 12.3rem;
+   background-color: rgb(13, 125, 159);
+   border: none;
+   padding: .6rem 2rem;
+   color: white;
+   border-radius: 3px;
+}
+::placeholder{
+    color: white;
+}
+.bottom-details{
+    width:85%;
+    margin: auto;
+    /* display: flex; */
+}
+.bottom_text{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.copyright_text{
+    display: flex;
+    color: white;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.policy_terms{
+    display: flex;
+    gap: 20px;
+
+}
+
+.footer2{
+    background-color: darkslateblue;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 1147px) {
+    .boxcontainer{
+        display: flex;
+        gap: 3rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+ 
+  
+  }

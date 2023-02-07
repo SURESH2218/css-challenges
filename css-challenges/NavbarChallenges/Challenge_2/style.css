@@ -1,0 +1,35 @@
+.elements{
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    color: white;
+    width: 80%;
+    justify-content: space-around;
+    margin: auto;
+    cursor: pointer;
+    height: 50px;
+    align-items: center;
+    border-radius: 10px;
+}
+li{
+    list-style: none;
+}
+.nav-ele{
+    list-style: none;
+}
+.hidden-ele{
+    display: none;
+    position: absolute;
+    top: 70px;
+}
+.nav-ele > a:hover + .hidden-ele{
+    background-color: grey;
+    padding: 1rem 3rem;
+    display: block;
+    transition: 1s ease-in-out;
+}
+.nav-ele > a:hover{
+    background-color: orange;
+    padding: 1rem 3rem;
+    transition: .3s ease-in-out;
+}

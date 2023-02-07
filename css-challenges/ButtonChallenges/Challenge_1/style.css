@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 680px;
+    border: 1px solid red;
+}
+.btn{
+    font-size: 20px;
+    padding: 1.4rem 2rem;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+.seven{
+    font-size: 20px;
+    background-color:red;
+    color: black;
+    padding: .7rem 1rem;
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    right: -50px;
+}

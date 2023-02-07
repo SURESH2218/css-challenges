@@ -1,0 +1,26 @@
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .9rem 1.3rem;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+
+}
+.div__btn{
+    width: 680px;
+}
+body{
+    background-color: black;
+   
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: 3px solid yellow;
+    border-radius: 10px ;
+    transition: .1s;
+    box-shadow: 1px 1px 15px 1px yellow;
+    box-shadow: yellow;
+}
