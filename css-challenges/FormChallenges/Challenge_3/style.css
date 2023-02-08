@@ -92,38 +92,50 @@ button{
 .clip-path-1{
     width: 30rem;
     height: 15rem;
-    margin-top: 5%;
-    margin-left: 20%;
+    margin-top: 10%;
+    margin-left: 5%;
     z-index: -1;
     background-color: black;
     position: absolute;
     transform: rotate(180deg);
     transition: 1s;
     clip-path: polygon(100% 7%, 100% 31%, 0 69%, 0 46%);
+    animation: rotate .2s infinite linear;
+}
+@keyframes rotate
+ {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
 }
 .clip-path-2{
     width: 30rem;
     height: 15rem;
-    margin-top: 12%;
-    margin-left: 50%;
+    margin-top: 10%;
+    margin-left: 65%;
     z-index: -1;
     background-color: black;
     position: absolute;
     transform: rotate(180deg);
     transition: 1s;
     clip-path: polygon(100% 7%, 100% 31%, 0 69%, 0 46%);
+    animation: rotate .2s infinite linear;
 }
 .clip-path-3{
-    width: 10rem;
-    height: 15rem;
-    margin-top: 14%;
-    margin-left: 75%;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 0%;
+    margin-left: 47%;
     z-index: -1;
     background-color: rgb(169, 152, 152);
     position: absolute;
     transform: rotate(199deg);
     transition: 1s;
     clip-path: polygon(100% 7%, 100% 31%, 0 69%, 0 46%);
+    animation: rotate .2s infinite linear;
 }
 body{
     position: relative;
