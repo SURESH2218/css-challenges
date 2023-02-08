@@ -1,0 +1,140 @@
+.main-container{
+    height: 91.23vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.first-text{
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container1{
+    padding-bottom: 2rem;
+    background-color: white;
+    padding:3rem 2rem;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px black;
+}
+.textsign,label{
+    color: black;
+    font-weight: 600;
+    padding-bottom: 10px;
+
+}
+
+.eandp{
+    padding-bottom: 20px;
+}
+.eandp span{
+    padding-left: 20px;
+    color: blue;
+    font-size: 15px;
+
+}
+#checkbox{
+    padding-bottom: 20px;
+}
+.stay{
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+button{
+    padding: .5rem 6rem;
+    border: none;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+
+}
+.aftertext{
+    font-size: 13px;
+    color: blueviolet;
+    text-align: center;
+}
+.fname{
+    padding-right:5rem;
+    padding-bottom: 1rem;
+}
+.footer-elements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.elements-1{
+    display: flex;
+    width: 85%;
+    margin: auto;
+
+}
+.signup{
+    /* padding-left: 10px; */
+    color: blue;
+}
+.elements-2{
+    display: flex;
+    gap:10px;
+}
+.elements-2 a{
+    text-decoration: none;
+}
+.clip-path-1{
+    width: 30rem;
+    height: 15rem;
+    margin-top: 5%;
+    margin-left: 20%;
+    z-index: -1;
+    background-color: black;
+    position: absolute;
+    transform: rotate(180deg);
+    transition: 1s;
+    clip-path: polygon(100% 7%, 100% 31%, 0 69%, 0 46%);
+}
+.clip-path-2{
+    width: 30rem;
+    height: 15rem;
+    margin-top: 12%;
+    margin-left: 50%;
+    z-index: -1;
+    background-color: black;
+    position: absolute;
+    transform: rotate(180deg);
+    transition: 1s;
+    clip-path: polygon(100% 7%, 100% 31%, 0 69%, 0 46%);
+}
+.clip-path-3{
+    width: 10rem;
+    height: 15rem;
+    margin-top: 14%;
+    margin-left: 75%;
+    z-index: -1;
+    background-color: rgb(169, 152, 152);
+    position: absolute;
+    transform: rotate(199deg);
+    transition: 1s;
+    clip-path: polygon(100% 7%, 100% 31%, 0 69%, 0 46%);
+}
+body{
+    position: relative;
+}
+.bottom-image img{
+    position: absolute;
+    right: 0;
+    bottom: -10;
+    width: 200px;
+    border: 3px solid black;
+    object-fit: contain;
+   
+}
+
